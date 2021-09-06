@@ -1,9 +1,390 @@
-<link rel="stylesheet" href="styles.css">
-<h1>Taking Control</h1>
-<canvas id="my-canvas" width="500" height="500"></canvas>
-<button id="kick">kick (Left Arrow Key)</button>
-<button id="punch">punch (Right Arrow Key)</button>
-<button id="forward">forward (Up Arrow Key)</button>
-<button id="backward">backward (Down Arrow Key)</button>
-<button id="block">block (Space Key)</button>
-<script type="text/javascript" src="main.js"></script>
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <link type="text/css" media="all" href="assets/css/style.css" rel="stylesheet"/>
+        <title>Dr. A. Jameer Basha | Professor & Head</title>
+        <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel='dns-prefetch' href='//s.w.org'/>
+        <link rel="alternate" type="application/rss+xml" title="Jameer Basha" href="#"/>
+        <link rel="alternate" type="application/rss+xml" title="Dr. A. Jameer Basha" href="#"/>
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="assets/js/main.js"></script>         
+        <link rel='stylesheet' id='bako-fonts-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C400i%2C600%2C600i%2C700%2C700i%7CPoppins%3A400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i&#038;ver=1.0.0' type='text/css' media='all'/>
+        <link rel='stylesheet' id='elementor-global-css' href='assets/css/style3.css' type='text/css' media='all'/>
+        <link rel='stylesheet' id='elementor-post-8-css' href='assets/css/style2.css' type='text/css' media='all'/>
+        <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.1.1' type='text/css' media='all'/> 
+        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js'></script>         
+        <link rel="icon" href="logo-1.png" sizes="32x32"/>
+        <link rel="icon" href="logo-1.png" sizes="192x192"/>
+        <link rel="apple-touch-icon-precomposed" href="logo-1.png"/>
+        <meta name="msapplication-TileImage" content="logo-1.png"/>
+    </head>
+    <body class="home page-template page-template-page-onepage page-template-page-onepage-php page page-id-8 elementor-default elementor-page elementor-page-8">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'>
+	</script>
+        <script>
+		new wow.init();
+	</script>
+        <div class="site-wrapper">
+            <div class="mobile-header py-2 px-3 mt-4"> 
+                <button class="menu-icon mr-2"> 
+                    <span></span> 
+                    <span></span> 
+                    <span></span> 
+                </button>                 
+                <a href="http://hiremestalin.com" class="logo"><noscript>
+                        <img src="logo-1.png" class="circle"/>
+                    </noscript><img src="logo-1.png" data-src="logo-1.png" alt="Dr. A. Jameer Basha" class="lazyload circle"/></a> 
+                <a href="http://hiremestalin.com" class="site-title dot ml-2">Dr. A. Jameer Basha</a>
+            </div>
+            <header class="left float-left shadow-dark" id="header"> 
+                <button type="button" class="close" aria-label="Close"> 
+                    <span aria-hidden="true">&times;</span> 
+                </button>
+                <div class="header-inner d-flex align-items-start flex-column">
+                    <a href="http://hiremestalin.com"><noscript>
+                            &amp;amp;lt;img src="logo-1.png" alt="Dr. A. Jameer Basha" data-pg-id="72"/&amp;amp;gt;
+</noscript><img class="lazyload" src="logo-1.png" data-src="logo-1.png" alt="Stalin"></a> 
+                    <a href="#" class="site-title mt-3">Dr. A. Jameer Basha</a> 
+                    <p>Professor & Head</p>
+                    <nav>
+                        <ul id="menu-one-page-menu" class="vertical-menu onepage-menu">
+                            <li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13">
+                                <a href="#about"><i class="fa fa-user"></i>About Me</a>
+                            </li>
+                            <li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16">
+                                <a href="#resume"><i class="fa fa-graduation-cap"></i>Resume</a>
+                            </li>
+                            <li id="menu-item-17" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17">
+                                <a href="#works"><i class="fa fa-cogs"></i>Expertise</a>
+                            </li>
+                            <li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19">
+                                <a href="#contact"><i class="fa fa-phone"></i>Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer mt-auto" align="center">
+                        <ul class="social-icons list-inline">
+                            <li class="list-inline-item"> 
+                                <a href="https://www.linkedin.com/in/jameer-basha/" target="_blank"> <i class="fab fa-linkedin-in"></i> </a>
+                            </li>
+                        </ul>                         
+                        <span class="copyright"> © 2021 Dr. A. Jameer Basha</span>
+                    </div>
+                </div>
+            </header>
+            <main class="content float-right">
+                <div data-elementor-type="post" data-elementor-id="8" class="elementor elementor-8" data-elementor-settings="[]">
+                    <div class="elementor-inner">
+                        <div class="elementor-section-wrap">
+                            <section class="elementor-element elementor-element-bf95336 elementor-section-height-min-height shadow-dark elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="bf95336" data-element_type="section" id="home" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-pg-collapsed>
+                                <div class="elementor-background-overlay"></div>
+                                <div class="elementor-container elementor-column-gap-default" id="about">
+                                    <div class="elementor-row">
+                                        <div class="elementor-element elementor-element-f2438ee elementor-column elementor-col-100 elementor-top-column" data-id="f2438ee" data-element_type="column">
+                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-3f69f3f elementor-widget__width-auto elementor-widget elementor-widget-heading" data-id="3f69f3f" data-element_type="widget" data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h1 class="elementor-heading-title elementor-size-default">I am Dr. A. Jameer Basha<span class="dot"></span></h1>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-c15fb9f elementor-widget elementor-widget-text-editor" data-id="c15fb9f" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-text-editor elementor-clearfix">
+                                                                <p> Professor and Head, Department of Computer Scieence and Engineering</p>
+																<p>Hindusthan Institute of Technology, Coimbatore</p>
+																<p>I have over 20 Years of experience in teaching, research and practicing Outcome Based Education.</p>
+                                                                <p><br></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-62c7ffb elementor-widget__width-auto elementor-widget elementor-widget-bako-button" data-id="62c7ffb" data-element_type="widget" data-widget_type="bako-button.default">
+                                                        <div class="elementor-widget-container"> 
+                                                            <a href="#contact" class="btn btn-default btn-lg"> <i class="icon-envelope"></i> Contact </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-113d6f7 elementor-widget__width-auto elementor-widget elementor-widget-bako-button" data-id="113d6f7" data-element_type="widget" data-widget_type="bako-button.default">
+                                                        <div class="elementor-widget-container"> 
+                                                            <a href="/project/martialarts.html" class="btn btn-border-light btn-lg"> <i class="icon-envelope"></i>Project</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-element elementor-element-6035891 shadow-blue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6035891" data-element_type="section" id="resume" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-pg-collapsed>
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-row">
+                                        <div class="elementor-element elementor-element-622d1cb elementor-column elementor-col-100 elementor-top-column" data-id="622d1cb" data-element_type="column">
+                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-2430684 elementor-widget elementor-widget-bako-section-title" data-id="2430684" data-element_type="widget" data-widget_type="bako-section-title.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h3 class="section-title">Qualification</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-8c19699 elementor-widget elementor-widget-spacer" data-id="8c19699" data-element_type="widget" data-widget_type="spacer.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-spacer">
+                                                                <div class="elementor-spacer-inner"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-dc80888 elementor-widget elementor-widget-bako-timeline" data-id="dc80888" data-element_type="widget" data-widget_type="bako-timeline.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="timeline">
+                                                                <div class="entry">
+                                                                    <div class="title"> 
+                                                                        <span>2012</span>
+                                                                    </div>
+                                                                    <div class="body">
+                                                                        <h4 class="mt-0">Ph.D, Computer Science and Engineering</h4>
+                                                                        <p></p>
+                                                                        <ul>
+                                                                            <li>Anna University, Chennai</li>
+																			<li> Commended</li>
+                                                                            
+                                                                        </ul>
+                                                                        <p></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="entry">
+                                                                    <div class="title"> 
+                                                                        <span>2005</span>
+                                                                    </div>
+                                                                    <div class="body">
+                                                                        <h4 class="mt-0">M.Tech, Computer & Information Technology</h4>
+                                                                        <ul>
+                                                                            <li>Manonmaniam Sundaranar University, Tirunelveli</li>
+                                                                            <li>First Class</li>
+                                                                            
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+																<div class="entry">
+                                                                    <div class="title"> 
+                                                                        <span>2001</span>
+                                                                    </div>
+                                                                    <div class="body">
+                                                                        <h4 class="mt-0">B.E, Computer Science and Engineering</h4>
+                                                                        <ul>
+                                                                            <li>Tamil Nadu College of Engineering, Coimbatore</li>
+                                                                            <li>First Class</li>
+                                                                            
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>                                                             
+                                                            <span class="timeline-line"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-element elementor-element-03637ba shadow-blue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="03637ba" data-element_type="section" id="works" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-row">
+                                        <div class="elementor-element elementor-element-9884b88 elementor-column elementor-col-100 elementor-top-column" data-id="9884b88" data-element_type="column">
+                                            <div class="elementor-element-populated elementor-column-wrap">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-96946c1 elementor-widget elementor-widget-bako-section-title" data-id="96946c1" data-element_type="widget" data-widget_type="bako-section-title.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h3 class="section-title">Expertise</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-f39685f elementor-widget elementor-widget-spacer" data-id="f39685f" data-element_type="widget" data-widget_type="spacer.default" data-pg-collapsed>
+                                                        <div class="elementor-widget-container" data-pg-collapsed>
+                                                            <div class="elementor-spacer">
+                                                                <div class="elementor-spacer-inner"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-3695189 elementor-widget elementor-widget-text-editor" data-id="3695189" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="text-center service-item fadeInLeft"> 
+                                                                <img class="lazyload" src="network_security.png" data-src="network_security.png" alt="Network Security">
+                                                                <h4 class="my-3">Development</h4>
+                                                                <p class="mb-0">Cisco and juniper Routers, Switches, Next-Generation Firewalls, Cisco ASA, firepower, ISE, Meraki, Umbrella, Web & Email Security, SD-WAN, Nexus Platforms</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-f39685f elementor-widget-spacer" data-id="f39685f" data-element_type="widget" data-widget_type="spacer.default" data-pg-collapsed>
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-spacer">
+                                                                <div class="elementor-spacer-inner"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-3695189 elementor-widget elementor-widget-text-editor" data-id="3695189" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="service-item text-center"> 
+                                                                <img class="lazyload" src="security.png" data-src="security.png" alt="Security">
+                                                                <h4 class="my-3">Network Security</h4>
+                                                                <p class="mb-0">Next-Generation Firewall design and configuration, Secure VPN –DMVPN, Site-toSite VPN , Any Connect VPN, Remote access VPN, Network Access Security, BYOD, Posture assessments, Guest wireless Access, Email  Security, Endpoint Security, Web Security, Malware Protection, Cloud Security, Security Management, Endpoint Security</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-f39685f elementor-widget-spacer" data-id="f39685f" data-element_type="widget" data-widget_type="spacer.default" data-pg-collapsed>
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-spacer">
+                                                                <div class="elementor-spacer-inner"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-3695189 elementor-widget elementor-widget-text-editor" data-id="3695189" data-element_type="widget" data-widget_type="text-editor.default" data-pg-collapsed>
+                                                        <div class="elementor-widget-container">
+                                                            <div class="service-item text-center"> 
+                                                                <img class="lazyload" src="security.png" data-src="operation.png" alt="Security">
+                                                                <h4 class="my-3">Security Operations</h4>
+                                                                <p class="mb-0">24/7 security operations, Threat Alert service, Incident Response, Malware Analysis, SIEM log management and Monitoring, Vulnerability Assessment, Mobile Security Assessment, Cloud Security Assessment</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-f39685f elementor-widget-spacer" data-id="f39685f" data-element_type="widget" data-widget_type="spacer.default" data-pg-collapsed>
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-spacer">
+                                                                <div class="elementor-spacer-inner"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-3695189 elementor-widget elementor-widget-text-editor" data-id="3695189" data-element_type="widget" data-widget_type="text-editor.default" data-pg-collapsed>
+                                                        <div class="elementor-widget-container">
+                                                            <div class="service-item text-center"> 
+                                                                <img class="lazyload" src="ip_security.png" data-src="ip_security.png" alt="Security">
+                                                                <h4 class="my-3">IP Technology Skills</h4>
+                                                                <p class="mb-0">IPV4, IPV6, RIP, RIPV2, EIGRP, OSPF, IS-IS, BGP, Route Reflectors, PIM, Multicast Routing, ASM, SSM, MPLS,MBGP, MPLS-TE, RSVP, LDP, L2VPN, L3VPN, GETVPN, DMVPN, L-L VPN, NAT, ACL, Route Map, Prefix-List, Redistribution, STP, RSTP, VTP, VLAN, VXLAN, vPC and more</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-f39685f elementor-widget-spacer" data-id="f39685f" data-element_type="widget" data-widget_type="spacer.default" data-pg-collapsed>
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-spacer">
+                                                                <div class="elementor-spacer-inner"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-3695189 elementor-widget elementor-widget-text-editor" data-id="3695189" data-element_type="widget" data-widget_type="text-editor.default" data-pg-collapsed>
+                                                        <div class="elementor-widget-container">
+                                                            <div class="service-item text-center"> 
+                                                                <img class="lazyload" src="tool.png" data-src="tool.png" alt="Security">
+                                                                <h4 class="my-3">Network & SECURITY Tools</h4>
+                                                                <p class="mb-0">Spectrum, MRTG, Solar Winds, Wireshark, Splunk,  SIEM</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-element elementor-element-25748d4 shadow-dark elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="25748d4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-background-overlay"></div>
+                            </section>
+                            <section class="elementor-element elementor-element-688b47d shadow-blue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="688b47d" data-element_type="section" id="contact" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-pg-collapsed>
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-row">
+                                        <div class="elementor-element elementor-element-91ecb8a elementor-column elementor-col-100 elementor-top-column" data-id="91ecb8a" data-element_type="column">
+                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-59c6a94 elementor-widget elementor-widget-bako-section-title" data-id="59c6a94" data-element_type="widget" data-widget_type="bako-section-title.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h3 class="section-title">Get in touch</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-e5d8fe5 elementor-widget elementor-widget-spacer" data-id="e5d8fe5" data-element_type="widget" data-widget_type="spacer.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-spacer">
+                                                                <div class="elementor-spacer-inner"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <section class="elementor-element elementor-element-32eaa98 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="32eaa98" data-element_type="section">
+                                                        <div class="elementor-container elementor-column-gap-default">
+                                                            <div class="elementor-row">
+                                                                <div class="elementor-element elementor-element-3f4ccb2 elementor-column elementor-col-33 elementor-inner-column" data-id="3f4ccb2" data-element_type="column">
+                                                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                                                        <div class="elementor-widget-wrap">
+                                                                            <div class="elementor-element elementor-element-fca804d elementor-widget elementor-widget-bako-contact" data-id="fca804d" data-element_type="widget" data-widget_type="bako-contact.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="contact-info"> 
+                                                                                        <i class="icon-phone"></i>
+                                                                                        <div class="details">
+                                                                                            <h5>Phone</h5> 
+                                                                                            <span><span>+919443403786</span></span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-element elementor-element-c5713f0 elementor-widget elementor-widget-spacer" data-id="c5713f0" data-element_type="widget" data-widget_type="spacer.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-spacer">
+                                                                                        <div class="elementor-spacer-inner"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-element elementor-element-447fdff elementor-widget elementor-widget-bako-contact" data-id="447fdff" data-element_type="widget" data-widget_type="bako-contact.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="contact-info"> 
+                                                                                        <i class="icon-envelope"></i>
+                                                                                        <div class="details">
+                                                                                            <h5>Email address</h5> 
+                                                                                            <span>jameer@hit.edu.in</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-element elementor-element-e7f3dd5 elementor-widget elementor-widget-spacer" data-id="e7f3dd5" data-element_type="widget" data-widget_type="spacer.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="elementor-spacer">
+                                                                                        <div class="elementor-spacer-inner"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-element elementor-element-972adfd elementor-widget elementor-widget-bako-contact" data-id="972adfd" data-element_type="widget" data-widget_type="bako-contact.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="contact-info"> 
+                                                                                        <i class="icon-location-pin"></i>
+                                                                                        <div class="details">
+                                                                                            <h5>Location</h5> 
+                                                                                            <span>17 Aringar Anna Colony, Nehru Street, SIDCO, CBE - 21<br></span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section> 
+<a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a> 
+<noscript>
+    <style>.lazyload{display:none;}</style>
+</noscript>
+<script data-noptimize="1">window.lazySizesConfig=window.lazySizesConfig||{};window.lazySizesConfig.loadMode=1;</script>
+<script async data-noptimize="1" src='https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.1/lazysizes.min.js'></script>
+<script type='text/javascript'>var wpcf7 = {"apiSettings":{"root":"http:\/\/pxltheme.club\/wp\/bako\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};</script> 
+<script type='text/javascript'>var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.5.14","urls":{"assets":"http:\/\/pxltheme.club\/wp\/bako\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_enable_lightbox_in_editor":"yes"}},"post":{"id":8,"title":"Home Page","excerpt":""}};</script> 
+<script type="text/javascript" defer src="assets/js/shaznjam.js"></script>
